@@ -158,6 +158,7 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMUpdater \
     CMFileManager \
+    Halo \
     LockClock
 
 PRODUCT_PACKAGES += \
