@@ -93,7 +93,10 @@ PRODUCT_COPY_FILES += \
 
 # userinit support
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
+    vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
+    vendor/cm/prebuilt/common/etc/init.d/91battcalibration:system/etc/init.d/91battcalibration \
+    vendor/cm/prebuilt/common/etc/init.d/05zipalign:system/etc/init.d/05zipalign \
+    vendor/cm/prebuilt/common/etc/init.d/02speedtweaks:system/etc/init.d/02speedtweaks
 
 # CM-specific init file
 PRODUCT_COPY_FILES += \
