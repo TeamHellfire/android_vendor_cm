@@ -157,11 +157,10 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMWallpapers \
+    Hellpaper \
     Apollo \
-    CMUpdater \
     CMFileManager \
-    Halo \
+    HALO \
     LockClock
 
 PRODUCT_PACKAGES += \
