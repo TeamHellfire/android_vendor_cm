@@ -171,6 +171,11 @@ PRODUCT_PACKAGES += \
     HALO \
     LockClock
 
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
+
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
 
