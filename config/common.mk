@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
     #Trebuchet \
 
 PRODUCT_PACKAGES += \
+    Catapult \
     Launcher3 \
     DSPManager \
     libcyanogen-dsp \
