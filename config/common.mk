@@ -144,7 +144,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     Catapult \
-    Launcher3 \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
