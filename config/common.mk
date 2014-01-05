@@ -69,7 +69,7 @@ endif
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
-    vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
+    vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-HF.txt
 
 # Backup Tool
 ifneq ($(WITH_GMS),true)
@@ -143,7 +143,7 @@ PRODUCT_PACKAGES += \
     #Trebuchet \
 
 PRODUCT_PACKAGES += \
-    Catapult \
+    Launcher3 \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
@@ -151,10 +151,15 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     HALO \
-    LockClock \
+    LockClock
+
+# CM Updaters
+ifneq ($(DISABLE_OTA),true)
+PRODUCT_PACKAGES += \
     CMUpdater \
-    CMFota \
-    CMAccount
+    CMFota
+endif
+			
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \

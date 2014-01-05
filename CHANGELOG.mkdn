@@ -1,7 +1,7 @@
-CyanogenMod
+Hellfire
 ===============
 
-Visit http://github.com/CyanogenMod for full source and git access.
+Visit http://github.com/TeamHellfire for full source and git access.
 
 Visit http://review.cyanogenmod.org for our Gerrit instance.
 
@@ -10,6 +10,10 @@ CHANGELOG (notable new features)
 
 ### 11.0.0
 * Common: Android 4.4 (Google)
+* Common: Catapult
+* Common: HellFire battery bar
+* Common: Listview
+* Common: helltweeker
 
 ### 10.2.0
 * Common: Android 4.3 (Google)
