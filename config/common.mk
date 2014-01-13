@@ -146,15 +146,7 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     HALO \
-    LockClock
-
-# CM Updaters
-ifneq ($(DISABLE_OTA),true)
-PRODUCT_PACKAGES += \
-    CMUpdater \
-    CMFota
-endif
-			
+    LockClock		
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
