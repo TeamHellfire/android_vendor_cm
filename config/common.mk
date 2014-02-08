@@ -149,7 +149,8 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     HALO \
-    LockClock		
+    LockClock \
+    CMAccount		
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
